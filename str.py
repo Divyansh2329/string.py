@@ -105,4 +105,35 @@ print(txt.encode(encoding="ascii",errors="backslashreplace"))
 print(txt.encode(encoding="ascii",errors="ignore"))
 print(txt.encode(encoding="ascii",errors="namereplace"))
 print(txt.encode(encoding="ascii",errors="replace"))
-print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"
+print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
+txt = "Hello, welcome to my world!"
+
+x = txt.endswith("!")
+
+print(x)
+txt = "H\te\tl\tl\to"
+
+x =  txt.expandtabs(2)
+
+print(x)
+txt = "Hello, welcome to my world."
+
+x = txt.find("welcome")
+
+print(x)
+txt = "Hello, welcome to my world."
+
+x = txt.find("my")
+
+print(x)
+myTuple = ("raam", "shaam", "Vicky")
+
+x = "&".join(myTuple)
+
+print(x)
+myDict = {"name": "John", "country": "Norway"}
+mySeparator = "AND"
+
+x = mySeparator.join(myDict)
+
+print(x)
